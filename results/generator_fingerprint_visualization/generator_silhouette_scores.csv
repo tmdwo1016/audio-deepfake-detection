@@ -1,0 +1,7 @@
+﻿representation,space,generator_silhouette
+Handcrafted,standardized_original,-0.01828303188085556
+Handcrafted,pca_2d,-0.18143025040626526
+Handcrafted,umap_2d,0.03442726656794548
+MERT,standardized_original,0.016434013843536377
+MERT,pca_2d,-0.1445261836051941
+MERT,umap_2d,0.001570254098623991
