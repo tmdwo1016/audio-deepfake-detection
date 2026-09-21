@@ -1,0 +1,10 @@
+condition,model,roc_auc,eer,balanced_accuracy,macro_f1,real_fpr,fake_miss_rate,auc_drop_from_original,notes
+original,RBF-SVM,0.9644,0.1395,0.8696,0.7502,0.1556,0.1053,0.0000,handcrafted baseline
+mp3_128,RBF-SVM,0.9536,0.1325,0.8676,0.7692,0.1778,0.0870,0.0108,handcrafted baseline
+mp3_64,RBF-SVM,0.9062,0.1688,0.8494,0.7437,0.2000,0.1012,0.0583,handcrafted baseline
+original,Log-Mel CNN,0.9772,0.1042,0.9111,0.8535,0.1333,0.0445,0.0000,Log-Mel baseline
+mp3_128,Log-Mel CNN,0.8954,0.1830,0.7626,0.7765,0.4444,0.0304,0.0818,Log-Mel baseline
+mp3_64,Log-Mel CNN,0.8256,0.2892,0.7179,0.5430,0.2444,0.3198,0.1516,Log-Mel baseline
+original,MERT+LR,0.9845,0.0738,0.9363,0.8787,0.0889,0.0385,0.0000,layer 4 valid-frame full-decode cache
+mp3_128,MERT+LR,0.9851,0.0708,0.9444,0.9150,0.0889,0.0223,-0.0006,layer 4 valid-frame full-decode cache
+mp3_64,MERT+LR,0.9605,0.1102,0.8485,0.8709,0.2889,0.0142,0.0240,layer 4 valid-frame full-decode cache

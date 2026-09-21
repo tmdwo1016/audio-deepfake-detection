@@ -1,0 +1,33 @@
+{
+  "model": "m-a-p/MERT-v1-95M",
+  "revision": "12af15fef9d0ac838c3f475bfbbf26d2060dd4f5",
+  "processor_sampling_rate": 24000,
+  "segment_sec": 10.0,
+  "input": "24kHz mono, original 10s boundary, no zero padding",
+  "pooling": "single-segment valid hidden frames mean",
+  "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hidden_size": 768,
+  "manifest_sha256": "9023dcb21bef5d7163c63ea93258195e53c9fde3ecb7fee5920bf6ff94bbc2b3",
+  "splits": [
+    "test"
+  ],
+  "segment_ids_sha256": "e3064b161f399b04ccae85225781c1f49b97d8da6a5326eb4725d55eb65afc1d",
+  "condition": "mp3_64",
+  "transcode_report_sha256": "31f55f5158c1f3463327bfa56fb80f111de4ebb14e842352c7c41dc92662f490",
+  "decode": "full MP3 from start, 24kHz mono, original segment start_sec",
+  "padding": "none for frozen MERT; valid hidden frames mean"
+}

@@ -28,3 +28,6 @@ experiments/
 *.pt
 *.pkl
 
+# Local export archives and repeated experiment snapshots
+*.zip
+results/**/runs/

@@ -1,0 +1,40 @@
+{
+  "binary_checkpoint": "checkpoints/optimized/mert_best.joblib",
+  "binary_run_id": "mert_binary_20260919T110741Z",
+  "model": "m-a-p/MERT-v1-95M",
+  "revision": "12af15fef9d0ac838c3f475bfbbf26d2060dd4f5",
+  "selected_mert_layer": 4,
+  "lr_C": 0.01,
+  "sampling_rate": 24000,
+  "cache_pooling": "single-segment valid hidden frames mean",
+  "conditions": [
+    "original",
+    "mp3_128",
+    "mp3_64"
+  ],
+  "clean_definition": "original dataset file, full-track decoded; not necessarily uncompressed audio",
+  "cache_dir": "data/processed/model_robustness/mp3/mert",
+  "manifest_sha256": "9023dcb21bef5d7163c63ea93258195e53c9fde3ecb7fee5920bf6ff94bbc2b3",
+  "transcode_report_sha256": "31f55f5158c1f3463327bfa56fb80f111de4ebb14e842352c7c41dc92662f490",
+  "fixed_validation_thresholds": {
+    "segment": 0.5685665621681771,
+    "track": 0.5887511404871456
+  },
+  "track_score": "mean of segment FAKE probabilities by track_sample_id",
+  "comparison_sources": [
+    "results/mp3_robustness/mp3_robustness_metrics.csv",
+    "results/cnn_mp3_robustness/cnn_mp3_robustness_metrics.csv"
+  ],
+  "qc": {
+    "three_completed_frozen_MERT_caches": true,
+    "same_Test_segment_and_track_ids": true,
+    "same_manifest_revision_and_pooling": true,
+    "no_MERT_fine_tuning_or_new_LR_fit": true,
+    "fixed_segment_Validation_threshold": true,
+    "fixed_track_Validation_threshold": true,
+    "same_track_score_mean": true,
+    "REAL_0_FAKE_1": true,
+    "all_metrics_finite": true,
+    "no_existing_result_overwrite": true
+  }
+}

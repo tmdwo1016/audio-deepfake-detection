@@ -4,8 +4,8 @@ AI 생성 음악을 실제 음악과 구분하고, 학습에서 보지 못한 �
 
 이 저장소는 Echoes TTA의 AI 생성 음악과 대응되는 FMA 실제 음악을 정제한 뒤, 동일 원곡이 Train/Validation/Test에 섞이지 않도록 `original_audio` 단위로 분할합니다. Handcrafted feature, Log-Mel CNN, frozen MERT 표현을 동일한 평가 원칙 아래 비교합니다.
 
-> 분석 완료일: 2026-09-13
-> 상세 결과: [최종 분석 보고서](docs/FINAL_REPORT.md) · [변경사항](CHANGELOG.md)
+> 분석 완료일: 2026-09-22
+> 상세 결과: [최종 분석 보고서](docs/FINAL_REPORT.md) · [MERT 강건성 추가 보고서](docs/22_mert_unseen_generator_report.md) · [변경사항](CHANGELOG.md)
 
 ## 핵심 결과
 
@@ -23,25 +23,26 @@ MERT가 clean/in-domain 성능에서 가장 우수했습니다. 또한 세 모�
 
 ### 2. Unseen-generator 일반화 — Track ROC-AUC
 
-| Holdout generator | RBF-SVM | Log-Mel CNN |
-|---|---:|---:|
-| MusicGen | 0.6123 | **0.8681** |
-| Udio | **0.8542** | 0.8227 |
+| Holdout generator | RBF-SVM | Log-Mel CNN | MERT+LR |
+|---|---:|---:|---:|
+| MusicGen | 0.6123 | 0.8681 | **0.9407** |
+| Udio | 0.8542 | 0.8227 | **0.9181** |
 
-MusicGen에서는 CNN이 크게 우수했지만 Udio에서는 SVM이 소폭 우수했습니다. 한 생성기에서의 일반화 결과를 다른 생성기로 일반화할 수 없다는 점이 핵심입니다.
+MERT가 두 holdout에서 가장 높은 AUC를 보였습니다. 다만 평가 대상이 MusicGen과 Udio 두 종류뿐이므로 다른 생성기까지 같은 결과라고 확대 해석할 수는 없습니다.
 
-![Unseen generator AUC](results/final_analysis/figures/02_unseen_generator_auc.png)
+![Unseen generator AUC](results/mert_unseen_generator/figures/unseen_generator_track_auc_mert_comparison.png)
 
 ### 3. MP3 codec shift — Track ROC-AUC
 
 | 모델 | Original | MP3 128 kbps | MP3 64 kbps |
 |---|---:|---:|---:|
-| RBF-SVM | 0.9644 | **0.9536** | **0.9062** |
-| Log-Mel CNN | **0.9772** | 0.8954 | 0.8256 |
+| RBF-SVM | 0.9644 | 0.9536 | 0.9062 |
+| Log-Mel CNN | 0.9772 | 0.8954 | 0.8256 |
+| MERT+LR | **0.9845** | **0.9851** | **0.9605** |
 
-CNN은 clean 조건에서는 우수하지만 압축 후 하락 폭이 더 컸습니다. 높은 in-domain 성능이 codec 강건성을 보장하지 않습니다.
+MERT의 64 kbps AUC 하락은 0.0240으로 세 모델 중 가장 작았습니다. 다만 같은 조건에서 REAL 오탐률은 0.0889에서 0.2889로 증가했으므로 AUC와 오류 방향을 함께 봐야 합니다. MP3 표의 MERT는 layer 4 valid-frame/full-decode cache를 사용해 in-domain layer 9 결과와 Original AUC가 다릅니다.
 
-![MP3 robustness AUC](results/final_analysis/figures/03_mp3_robustness_auc.png)
+![MP3 robustness AUC](results/mert_mp3_robustness/figures/mert_mp3_track_auc_comparison.png)
 
 ### 4. 12-way generator attribution
 
@@ -98,27 +99,33 @@ flowchart LR
 | 기본 탐지 | `09`–`10` | LR/RBF-SVM baseline 및 subgroup 분석 |
 | 강건성 | `11`–`12` | Handcrafted unseen-generator 및 MP3 robustness |
 | CNN | `13`–`16` | Log-Mel CNN, unseen/MP3 평가, 1차 통합 분석 |
-| MERT | `17_mert_frozen_baseline_v2.ipynb` | Frozen MERT layer 탐색과 detection baseline |
+| MERT | `17_mert_frozen_baseline_v2.ipynb`, `22_mert_unseen_generator.ipynb` | Frozen MERT baseline, unseen-generator 및 MP3 평가 |
 | Attribution | `18_generator_attribution_handcrafted_v3.ipynb`, `18B_...`, `19_...` | Full 및 strict-balanced 12-way 생성기 분류 |
-| 해석 | `20_generator_fingerprint_pca_umap_v2.ipynb`, `21_...` | PCA/UMAP, silhouette, 장르 및 음향 feature 분석 |
+| 해석 | `20_generator_fingerprint_pca_umap.ipynb`, `20_..._v2.ipynb`, `21_...` | PCA/UMAP, silhouette, 장르 및 음향 feature 분석 |
 
-`v2` 또는 `v3`가 붙은 노트북이 해당 단계의 최종 실행본입니다. 이전 버전은 실험 과정 추적을 위해 보존했습니다.
+위 표에 적힌 파일이 각 단계의 실행본입니다. 20번 PCA/UMAP 분석은 주 실행본과 v2 보존 사본을 모두 유지했습니다.
 
 ## 저장소 구조
 
 ```text
 .
-├── 01_...ipynb ~ 21_...ipynb    # 순차 분석 노트북
+├── 01_...ipynb ~ 22_...ipynb    # 순차 분석 노트북 24개
 ├── src/                          # FMA 다운로드·추출 보조 스크립트
 ├── results/                      # 재현 가능한 표, 예측, 그림
 │   ├── baseline/
 │   ├── cnn/
 │   ├── mert/
+│   ├── mert_unseen_generator/
+│   ├── mert_mp3_robustness/
 │   ├── generator_attribution/
 │   ├── generator_fingerprint_visualization/
 │   └── generator_genre_feature_analysis/
 └── docs/FINAL_REPORT.md          # 방법·결과·한계 상세 보고서
 ```
+
+## 제출용 패키지
+
+[`4조_DL프로젝트_(AI생성음악 탐지)`](<4조_DL프로젝트_(AI생성음악 탐지)/>) 폴더에는 전처리 데이터, 노트북, 통합 요약 CSV, 핵심 결과표, 대표 그림과 발표자료를 함께 정리했습니다. 원본 오디오와 수 GB 규모의 재생성 가능한 cache는 용량 및 재배포 조건 때문에 제외했습니다.
 
 ## 실행 환경
 
@@ -136,7 +143,8 @@ python -m pip install "transformers==4.47.1" "tokenizers==0.21.0"
 
 - Frozen MERT 표현은 in-domain 탐지와 generator attribution 모두에서 가장 강했습니다.
 - Log-Mel CNN은 clean detection에는 강하지만 MP3 codec shift에 더 민감했습니다.
-- Unseen-generator 일반화는 generator별로 양상이 달라 단일 평균 지표로 판단하기 어렵습니다.
+- MERT는 MusicGen·Udio holdout에서 가장 높은 AUC를 보였지만, 평가 범위는 두 생성기로 제한됩니다.
+- MERT는 MP3 64 kbps에서 AUC 하락이 가장 작았지만 REAL 오탐률은 증가했습니다.
 - 엄격한 source/class 통제 이후에도 생성기 attribution이 가능해 generator fingerprint의 존재를 지지합니다.
 - PCA/UMAP과 silhouette만으로는 이 구조가 명확한 compact cluster로 나타나지 않았습니다. fingerprint는 고차원·비선형 결정 경계에 분산되어 있을 가능성이 큽니다.
 - 장르와 생성기 signature는 상호작용하며, RMS·flatness·MFCC 일부가 반복적으로 높은 구분력을 보였습니다.

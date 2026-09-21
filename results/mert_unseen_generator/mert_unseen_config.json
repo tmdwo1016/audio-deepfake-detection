@@ -1,0 +1,98 @@
+{
+  "binary_run_id": "mert_binary_20260919T110741Z",
+  "binary_checkpoint": "checkpoints/optimized/mert_best.joblib",
+  "model": "m-a-p/MERT-v1-95M",
+  "revision": "12af15fef9d0ac838c3f475bfbbf26d2060dd4f5",
+  "selected_mert_layer": 4,
+  "representation_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "representation_dim": 768,
+  "sampling_rate": 24000,
+  "segment_seconds": 10.0,
+  "cache_input": "24kHz mono, original 10s boundary, no zero padding",
+  "cache_pooling": "single-segment valid hidden frames mean",
+  "cache_files": {
+    "train_val": "data/processed/mert/mert95m_binary_train_val_validframe_12af15fef9d0.npy",
+    "test": "data/processed/mert/mert95m_binary_test_validframe_12af15fef9d0.npy"
+  },
+  "manifest_sha256": "9023dcb21bef5d7163c63ea93258195e53c9fde3ecb7fee5920bf6ff94bbc2b3",
+  "classifier_params": {
+    "C": 0.01,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 3000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "scaler_params": {
+    "copy": true,
+    "with_mean": true,
+    "with_std": true
+  },
+  "fitted_train_samples": {
+    "musicgen": 6352,
+    "udio": 6355
+  },
+  "holdout_thresholds": {
+    "musicgen": {
+      "segment": 0.5975149120025461,
+      "track": 0.5838492782058293,
+      "val_segment_eer": 0.09701063097695832,
+      "val_track_eer": 0.05000000000000001
+    },
+    "udio": {
+      "segment": 0.5778698346950816,
+      "track": 0.589972275429367,
+      "val_segment_eer": 0.08247490755414685,
+      "val_track_eer": 0.04686520376175548
+    }
+  },
+  "test_protocol": "all original Test REAL plus Test FAKE from holdout generator",
+  "threshold_rule": "filtered Validation track ROC: finite argmin(abs(FPR-(1-TPR)))",
+  "track_score": "mean segment FAKE probability by track_sample_id",
+  "existing_comparison_sources": [
+    "results/unseen_generator/unseen_generator_metrics_all.csv",
+    "results/cnn_unseen_generator/cnn_unseen_generator_metrics_all.csv"
+  ],
+  "optional_clean_comparison": "omitted: no saved optimized MERT clean per-generator AUC artifact",
+  "qc": {
+    "frozen_MERT_cache_used": true,
+    "MERT_encoder_not_fine_tuned": true,
+    "selected_layer_matches_binary_checkpoint": true,
+    "C_matches_binary_checkpoint": true,
+    "scaler_train_only_fit": true,
+    "musicgen_train_count_zero": true,
+    "musicgen_val_count_zero": true,
+    "udio_train_count_zero": true,
+    "udio_val_count_zero": true,
+    "original_audio_split_unchanged": true,
+    "track_aggregation_is_segment_score_mean": true,
+    "threshold_from_filtered_validation": true,
+    "test_threshold_tuning_absent": true,
+    "test_REAL_0_FAKE_1": true,
+    "results_no_NaN_Inf": true,
+    "existing_artifact_not_overwritten": true
+  }
+}

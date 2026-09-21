@@ -1,0 +1,13 @@
+﻿holdout,split,stage,real_tracks,fake_tracks,real_segments,fake_segments,unique_original_audio
+musicgen,train,before,207,2185,621,6346,207
+musicgen,train,after,207,1980,621,5731,207
+musicgen,val,before,44,483,132,1406,44
+musicgen,val,after,44,440,132,1277,44
+musicgen,test,before,45,494,135,1437,45
+musicgen,test,after,45,45,135,135,45
+udio,train,before,207,2185,621,6346,207
+udio,train,after,207,1981,621,5734,207
+udio,val,before,44,483,132,1406,44
+udio,val,after,44,435,132,1262,44
+udio,test,before,45,494,135,1437,45
+udio,test,after,45,48,135,144,45

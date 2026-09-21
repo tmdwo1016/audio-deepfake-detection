@@ -1,0 +1,184 @@
+﻿track_sample_id,original_audio,label,label_id,genre,generator,split,segment_count,score,holdout_generator,threshold,pred
+sample_00003,2Much (Andy Spinelli & Alex Sánchez House Edit) - Tentacles,REAL,0,Electronic,,test,3,0.716609236950133,musicgen,0.5838492782058293,1
+sample_00004,3 am West End - statusq,REAL,0,Electronic,,test,3,0.20649744750209217,musicgen,0.5838492782058293,0
+sample_00005,5 (Lexington) - Isle of Pine,REAL,0,Rock,,test,3,0.377868093463432,musicgen,0.5838492782058293,0
+sample_00021,Attention - Pete Prodoehl,REAL,0,Rock,,test,3,0.09393319825311214,musicgen,0.5838492782058293,0
+sample_00028,Bizzy - The Tleilaxu Music Machine,REAL,0,Electronic,,test,3,0.05667610710818901,musicgen,0.5838492782058293,0
+sample_00045,Dance Harder - Three Chain Links,REAL,0,Electronic,,test,3,0.42109648729870885,musicgen,0.5838492782058293,0
+sample_00049,Different Day - First,REAL,0,Pop,,test,3,0.9388994878403903,musicgen,0.5838492782058293,1
+sample_00056,El Burrito - Malaventura,REAL,0,Pop,,test,3,0.10705826618307741,musicgen,0.5838492782058293,0
+sample_00061,End titles - Itsensäsyöjät,REAL,0,Electronic,,test,3,0.019201744282197796,musicgen,0.5838492782058293,0
+sample_00079,Fuckaboing - RoccoW,REAL,0,Electronic,,test,3,0.04510444799742078,musicgen,0.5838492782058293,0
+sample_00087,"Head of Ancante, Talking Tree - Ak'chamel, The Giver of Illness",REAL,0,Rock,,test,3,0.00912388624431754,musicgen,0.5838492782058293,0
+sample_00089,"Hungry - Oh Yeah, the Future",REAL,0,Pop,,test,3,0.07719248325254124,musicgen,0.5838492782058293,0
+sample_00090,I - Inflammator,REAL,0,Rock,,test,3,0.08851646761747146,musicgen,0.5838492782058293,0
+sample_00115,L'arbre - Salmo,REAL,0,Rock,,test,3,0.1245652076141724,musicgen,0.5838492782058293,0
+sample_00116,LIQUID SKULLS - voyageurs,REAL,0,Rock,,test,3,0.012244104088844276,musicgen,0.5838492782058293,0
+sample_00121,Leaving Here - Mod Fun,REAL,0,Rock,,test,3,0.029999212496824117,musicgen,0.5838492782058293,0
+sample_00122,Let You're Body Move - D SMILEZ,REAL,0,Electronic,,test,3,0.06457771354066903,musicgen,0.5838492782058293,0
+sample_00123,Let's Start Out Slow - RoccoW,REAL,0,Electronic,,test,3,0.40787042787093913,musicgen,0.5838492782058293,0
+sample_00132,Love Dream - The Zombie Dandies,REAL,0,Rock,,test,3,0.006378323512296703,musicgen,0.5838492782058293,0
+sample_00139,Moja Krypta - AmortE,REAL,0,Rock,,test,3,0.7296056144566488,musicgen,0.5838492782058293,1
+sample_00144,Motocross Mania - Monroeville Music Center,REAL,0,Pop,,test,3,0.07517567720541757,musicgen,0.5838492782058293,0
+sample_00146,Music For an Underground Circu - Ergo Phizmiz,REAL,0,Pop,,test,3,0.07468169901914194,musicgen,0.5838492782058293,0
+sample_00154,Night Owl - Broke For Free,REAL,0,Electronic,,test,3,0.11802932592688477,musicgen,0.5838492782058293,0
+sample_00171,Pista Afuera - Epstein,REAL,0,Electronic,,test,3,0.0038185413131955775,musicgen,0.5838492782058293,0
+sample_00174,Production - Bird Names,REAL,0,Pop,,test,3,0.0334887294967366,musicgen,0.5838492782058293,0
+sample_00176,Puertas de Fuego - Guerra de Cerdos,REAL,0,Rock,,test,3,0.07859494243157442,musicgen,0.5838492782058293,0
+sample_00178,Realize Me - Jim Rooster,REAL,0,Electronic,,test,3,0.6288518057278035,musicgen,0.5838492782058293,1
+sample_00180,Resistentialism - Nihilore,REAL,0,Electronic,,test,3,0.0620336236162539,musicgen,0.5838492782058293,0
+sample_00195,Set Fire to Creation - Nihilore,REAL,0,Electronic,,test,3,0.03701388015243189,musicgen,0.5838492782058293,0
+sample_00196,Sfogare Il Dissenso - Deiezione HC,REAL,0,Rock,,test,3,0.024009038062059878,musicgen,0.5838492782058293,0
+sample_00198,She Works / Tepid Waters - Bird Names,REAL,0,Pop,,test,3,0.07201261947795985,musicgen,0.5838492782058293,0
+sample_00206,Something Dirty - Ergo Phizmiz,REAL,0,Pop,,test,3,0.032457032911240476,musicgen,0.5838492782058293,0
+sample_00207,Sonzis FM - Pipe Choir,REAL,0,Rock,,test,3,0.06998554349791146,musicgen,0.5838492782058293,0
+sample_00216,Stuttgart - Portrayal,REAL,0,Rock,,test,3,0.573495416043953,musicgen,0.5838492782058293,0
+sample_00217,Support Me in This Moment That I'm About To Lose Heart - Nihilore,REAL,0,Electronic,,test,3,0.13055427745436812,musicgen,0.5838492782058293,0
+sample_00223,Terve Teille - Чокнутый Пропеллер,REAL,0,Rock,,test,3,0.05278845295993092,musicgen,0.5838492782058293,0
+sample_00224,The Adventures Of Roderick Random - Maps And Diagrams,REAL,0,Electronic,,test,3,0.030641530433100004,musicgen,0.5838492782058293,0
+sample_00236,"The Pursuit of Unintentional Humor - Oh Yeah, the Future",REAL,0,Pop,,test,3,0.0050860664144574816,musicgen,0.5838492782058293,0
+sample_00241,The Secret Garden - Barbarix,REAL,0,Electronic,,test,3,0.02119615783001193,musicgen,0.5838492782058293,0
+sample_00252,Troubles I've seen - Malaventura,REAL,0,Pop,,test,3,0.23879043472958542,musicgen,0.5838492782058293,0
+sample_00253,Ugh! Humans Can Join - Mystery Mammal,REAL,0,Electronic,,test,3,0.26860475058922384,musicgen,0.5838492782058293,0
+sample_00257,Untitled - Fatal Injection,REAL,0,Rock,,test,3,0.03441894693264064,musicgen,0.5838492782058293,0
+sample_00270,Where Is Everything - The Moi Non Plus,REAL,0,Rock,,test,3,0.017517113001574585,musicgen,0.5838492782058293,0
+sample_00271,Who Loves You Dear - Mink Lungs,REAL,0,Rock,,test,3,0.009880438921056901,musicgen,0.5838492782058293,0
+sample_00279,Yurtology - Michett,REAL,0,Electronic,,test,3,0.30378016829357896,musicgen,0.5838492782058293,0
+sample_03167,2Much (Andy Spinelli & Alex Sánchez House Edit) - Tentacles,FAKE,1,Electronic,musicgen,test,3,0.6104136791246609,musicgen,0.5838492782058293,1
+sample_03169,3 am West End - statusq,FAKE,1,Electronic,musicgen,test,3,0.8447259229538161,musicgen,0.5838492782058293,1
+sample_03171,5 (Lexington) - Isle of Pine,FAKE,1,Rock,musicgen,test,3,0.6914689927449874,musicgen,0.5838492782058293,1
+sample_03183,Attention - Pete Prodoehl,FAKE,1,Rock,musicgen,test,3,0.4854414598774124,musicgen,0.5838492782058293,0
+sample_03193,Bizzy - The Tleilaxu Music Machine,FAKE,1,Electronic,musicgen,test,3,0.7116938335823191,musicgen,0.5838492782058293,1
+sample_03209,Dance Harder - Three Chain Links,FAKE,1,Electronic,musicgen,test,3,0.8258567735983523,musicgen,0.5838492782058293,1
+sample_03214,Different Day - First,FAKE,1,Pop,musicgen,test,3,0.623383973525092,musicgen,0.5838492782058293,1
+sample_03222,El Burrito - Malaventura,FAKE,1,Pop,musicgen,test,3,0.9708109283308463,musicgen,0.5838492782058293,1
+sample_03227,End titles - Itsensäsyöjät,FAKE,1,Electronic,musicgen,test,3,0.9161606260165623,musicgen,0.5838492782058293,1
+sample_03244,Fuckaboing - RoccoW,FAKE,1,Electronic,musicgen,test,3,0.45861204064075595,musicgen,0.5838492782058293,0
+sample_03253,"Head of Ancante, Talking Tree - Ak'chamel, The Giver of Illness",FAKE,1,Rock,musicgen,test,3,0.6002733604102091,musicgen,0.5838492782058293,1
+sample_03255,"Hungry - Oh Yeah, the Future",FAKE,1,Pop,musicgen,test,3,0.9343616918807021,musicgen,0.5838492782058293,1
+sample_03267,I - Inflammator,FAKE,1,Rock,musicgen,test,3,0.9741395171737451,musicgen,0.5838492782058293,1
+sample_03287,Leaving Here - Mod Fun,FAKE,1,Rock,musicgen,test,3,0.6377041224227817,musicgen,0.5838492782058293,1
+sample_03288,Let's Start Out Slow - RoccoW,FAKE,1,Electronic,musicgen,test,3,0.6448212465015244,musicgen,0.5838492782058293,1
+sample_03290,Let You're Body Move - D SMILEZ,FAKE,1,Electronic,musicgen,test,3,0.9742006562572559,musicgen,0.5838492782058293,1
+sample_03295,LIQUID SKULLS - voyageurs,FAKE,1,Rock,musicgen,test,3,0.8479737120742669,musicgen,0.5838492782058293,1
+sample_03301,Love Dream - The Zombie Dandies,FAKE,1,Rock,musicgen,test,3,0.12612020638188398,musicgen,0.5838492782058293,0
+sample_03302,L'arbre - Salmo,FAKE,1,Rock,musicgen,test,3,0.3913210531872566,musicgen,0.5838492782058293,0
+sample_03308,Moja Krypta - AmortE,FAKE,1,Rock,musicgen,test,3,0.3888393256625065,musicgen,0.5838492782058293,0
+sample_03313,Motocross Mania - Monroeville Music Center,FAKE,1,Pop,musicgen,test,3,0.7600419223943912,musicgen,0.5838492782058293,1
+sample_03315,Music For an Underground Circu - Ergo Phizmiz,FAKE,1,Pop,musicgen,test,3,0.6451834950693931,musicgen,0.5838492782058293,1
+sample_03324,Night Owl - Broke For Free,FAKE,1,Electronic,musicgen,test,3,0.7799349948154827,musicgen,0.5838492782058293,1
+sample_03342,Pista Afuera - Epstein,FAKE,1,Electronic,musicgen,test,3,0.6676029376912255,musicgen,0.5838492782058293,1
+sample_03345,Production - Bird Names,FAKE,1,Pop,musicgen,test,3,0.7237295413517956,musicgen,0.5838492782058293,1
+sample_03347,Puertas de Fuego - Guerra de Cerdos,FAKE,1,Rock,musicgen,test,3,0.8721469064922286,musicgen,0.5838492782058293,1
+sample_03350,Realize Me - Jim Rooster,FAKE,1,Electronic,musicgen,test,3,0.8830846297692122,musicgen,0.5838492782058293,1
+sample_03352,Resistentialism - Nihilore,FAKE,1,Electronic,musicgen,test,3,0.6258456855336177,musicgen,0.5838492782058293,1
+sample_03367,Set Fire to Creation - Nihilore,FAKE,1,Electronic,musicgen,test,3,0.8381526288395751,musicgen,0.5838492782058293,1
+sample_03368,Sfogare Il Dissenso - Deiezione HC,FAKE,1,Rock,musicgen,test,3,0.9837832744314084,musicgen,0.5838492782058293,1
+sample_03371,She Works / Tepid Waters - Bird Names,FAKE,1,Pop,musicgen,test,3,0.4398159688465695,musicgen,0.5838492782058293,0
+sample_03379,Something Dirty - Ergo Phizmiz,FAKE,1,Pop,musicgen,test,3,0.8714998137307823,musicgen,0.5838492782058293,1
+sample_03381,Sonzis FM - Pipe Choir,FAKE,1,Rock,musicgen,test,3,0.5723665415064517,musicgen,0.5838492782058293,0
+sample_03390,Stuttgart - Portrayal,FAKE,1,Rock,musicgen,test,3,0.8440277605831993,musicgen,0.5838492782058293,1
+sample_03391,Support Me in This Moment That I'm About To Lose Heart - Nihilore,FAKE,1,Electronic,musicgen,test,3,0.7670926695981745,musicgen,0.5838492782058293,1
+sample_03396,Terve Teille - Чокнутый Пропеллер,FAKE,1,Rock,musicgen,test,3,0.8271558203771395,musicgen,0.5838492782058293,1
+sample_03397,The Adventures Of Roderick Random - Maps And Diagrams,FAKE,1,Electronic,musicgen,test,3,0.8311552371130505,musicgen,0.5838492782058293,1
+sample_03411,"The Pursuit of Unintentional Humor - Oh Yeah, the Future",FAKE,1,Pop,musicgen,test,3,0.7288128791059184,musicgen,0.5838492782058293,1
+sample_03416,The Secret Garden - Barbarix,FAKE,1,Electronic,musicgen,test,3,0.5681549598837642,musicgen,0.5838492782058293,0
+sample_03425,Troubles I've seen - Malaventura,FAKE,1,Pop,musicgen,test,3,0.7983848163649246,musicgen,0.5838492782058293,1
+sample_03427,Ugh! Humans Can Join - Mystery Mammal,FAKE,1,Electronic,musicgen,test,3,0.8212879702671531,musicgen,0.5838492782058293,1
+sample_03431,Untitled - Fatal Injection,FAKE,1,Rock,musicgen,test,3,0.7491234560192815,musicgen,0.5838492782058293,1
+sample_03443,Where Is Everything - The Moi Non Plus,FAKE,1,Rock,musicgen,test,3,0.5637198345435508,musicgen,0.5838492782058293,0
+sample_03444,Who Loves You Dear - Mink Lungs,FAKE,1,Rock,musicgen,test,3,0.5900641778034612,musicgen,0.5838492782058293,1
+sample_03451,Yurtology - Michett,FAKE,1,Electronic,musicgen,test,3,0.7015158203224067,musicgen,0.5838492782058293,1
+sample_00003,2Much (Andy Spinelli & Alex Sánchez House Edit) - Tentacles,REAL,0,Electronic,,test,3,0.7261938739675357,udio,0.589972275429367,1
+sample_00004,3 am West End - statusq,REAL,0,Electronic,,test,3,0.2514761163810317,udio,0.589972275429367,0
+sample_00005,5 (Lexington) - Isle of Pine,REAL,0,Rock,,test,3,0.31562166381739587,udio,0.589972275429367,0
+sample_00021,Attention - Pete Prodoehl,REAL,0,Rock,,test,3,0.20826308844713717,udio,0.589972275429367,0
+sample_00028,Bizzy - The Tleilaxu Music Machine,REAL,0,Electronic,,test,3,0.10110601941318592,udio,0.589972275429367,0
+sample_00045,Dance Harder - Three Chain Links,REAL,0,Electronic,,test,3,0.39315567579250604,udio,0.589972275429367,0
+sample_00049,Different Day - First,REAL,0,Pop,,test,3,0.8984320818782082,udio,0.589972275429367,1
+sample_00056,El Burrito - Malaventura,REAL,0,Pop,,test,3,0.040418698630592505,udio,0.589972275429367,0
+sample_00061,End titles - Itsensäsyöjät,REAL,0,Electronic,,test,3,0.030492322697014528,udio,0.589972275429367,0
+sample_00079,Fuckaboing - RoccoW,REAL,0,Electronic,,test,3,0.0512182316590394,udio,0.589972275429367,0
+sample_00087,"Head of Ancante, Talking Tree - Ak'chamel, The Giver of Illness",REAL,0,Rock,,test,3,0.0156288467677452,udio,0.589972275429367,0
+sample_00089,"Hungry - Oh Yeah, the Future",REAL,0,Pop,,test,3,0.09264271275433283,udio,0.589972275429367,0
+sample_00090,I - Inflammator,REAL,0,Rock,,test,3,0.13494925316908352,udio,0.589972275429367,0
+sample_00115,L'arbre - Salmo,REAL,0,Rock,,test,3,0.053951640604179694,udio,0.589972275429367,0
+sample_00116,LIQUID SKULLS - voyageurs,REAL,0,Rock,,test,3,0.014802747231050822,udio,0.589972275429367,0
+sample_00121,Leaving Here - Mod Fun,REAL,0,Rock,,test,3,0.0319933538323221,udio,0.589972275429367,0
+sample_00122,Let You're Body Move - D SMILEZ,REAL,0,Electronic,,test,3,0.05277703288786619,udio,0.589972275429367,0
+sample_00123,Let's Start Out Slow - RoccoW,REAL,0,Electronic,,test,3,0.35953098192522015,udio,0.589972275429367,0
+sample_00132,Love Dream - The Zombie Dandies,REAL,0,Rock,,test,3,0.003300835709760101,udio,0.589972275429367,0
+sample_00139,Moja Krypta - AmortE,REAL,0,Rock,,test,3,0.6962085480408629,udio,0.589972275429367,1
+sample_00144,Motocross Mania - Monroeville Music Center,REAL,0,Pop,,test,3,0.07649724492507909,udio,0.589972275429367,0
+sample_00146,Music For an Underground Circu - Ergo Phizmiz,REAL,0,Pop,,test,3,0.10409638901867557,udio,0.589972275429367,0
+sample_00154,Night Owl - Broke For Free,REAL,0,Electronic,,test,3,0.130777925783066,udio,0.589972275429367,0
+sample_00171,Pista Afuera - Epstein,REAL,0,Electronic,,test,3,0.0031712451115388615,udio,0.589972275429367,0
+sample_00174,Production - Bird Names,REAL,0,Pop,,test,3,0.04645945745363366,udio,0.589972275429367,0
+sample_00176,Puertas de Fuego - Guerra de Cerdos,REAL,0,Rock,,test,3,0.07331095499410893,udio,0.589972275429367,0
+sample_00178,Realize Me - Jim Rooster,REAL,0,Electronic,,test,3,0.6522926232643774,udio,0.589972275429367,1
+sample_00180,Resistentialism - Nihilore,REAL,0,Electronic,,test,3,0.0746835498619332,udio,0.589972275429367,0
+sample_00195,Set Fire to Creation - Nihilore,REAL,0,Electronic,,test,3,0.025263442700657862,udio,0.589972275429367,0
+sample_00196,Sfogare Il Dissenso - Deiezione HC,REAL,0,Rock,,test,3,0.01812995175725025,udio,0.589972275429367,0
+sample_00198,She Works / Tepid Waters - Bird Names,REAL,0,Pop,,test,3,0.1184962515388998,udio,0.589972275429367,0
+sample_00206,Something Dirty - Ergo Phizmiz,REAL,0,Pop,,test,3,0.04207156938768249,udio,0.589972275429367,0
+sample_00207,Sonzis FM - Pipe Choir,REAL,0,Rock,,test,3,0.034679898728678535,udio,0.589972275429367,0
+sample_00216,Stuttgart - Portrayal,REAL,0,Rock,,test,3,0.45491537862316983,udio,0.589972275429367,0
+sample_00217,Support Me in This Moment That I'm About To Lose Heart - Nihilore,REAL,0,Electronic,,test,3,0.09467461174166446,udio,0.589972275429367,0
+sample_00223,Terve Teille - Чокнутый Пропеллер,REAL,0,Rock,,test,3,0.03678432376380208,udio,0.589972275429367,0
+sample_00224,The Adventures Of Roderick Random - Maps And Diagrams,REAL,0,Electronic,,test,3,0.05137217169059402,udio,0.589972275429367,0
+sample_00236,"The Pursuit of Unintentional Humor - Oh Yeah, the Future",REAL,0,Pop,,test,3,0.0035765534352900745,udio,0.589972275429367,0
+sample_00241,The Secret Garden - Barbarix,REAL,0,Electronic,,test,3,0.0052776870399085865,udio,0.589972275429367,0
+sample_00252,Troubles I've seen - Malaventura,REAL,0,Pop,,test,3,0.20488350180923287,udio,0.589972275429367,0
+sample_00253,Ugh! Humans Can Join - Mystery Mammal,REAL,0,Electronic,,test,3,0.2615573211284615,udio,0.589972275429367,0
+sample_00257,Untitled - Fatal Injection,REAL,0,Rock,,test,3,0.0380112387162548,udio,0.589972275429367,0
+sample_00270,Where Is Everything - The Moi Non Plus,REAL,0,Rock,,test,3,0.013769668609462814,udio,0.589972275429367,0
+sample_00271,Who Loves You Dear - Mink Lungs,REAL,0,Rock,,test,3,0.01065503174022449,udio,0.589972275429367,0
+sample_00279,Yurtology - Michett,REAL,0,Electronic,,test,3,0.35434266977855633,udio,0.589972275429367,0
+sample_02389,Dance Harder - Three Chain Links,FAKE,1,Electronic,udio,test,3,0.9691239949991054,udio,0.589972275429367,1
+sample_02390,Dance Harder - Three Chain Links,FAKE,1,Electronic,udio,test,3,0.8288073535182917,udio,0.589972275429367,1
+sample_02401,Fuckaboing - RoccoW,FAKE,1,Electronic,udio,test,3,0.9989236844921603,udio,0.589972275429367,1
+sample_02402,Fuckaboing - RoccoW,FAKE,1,Electronic,udio,test,3,0.652740220222329,udio,0.589972275429367,1
+sample_02417,Night Owl - Broke For Free,FAKE,1,Electronic,udio,test,3,0.9013167904097955,udio,0.589972275429367,1
+sample_02418,Night Owl - Broke For Free,FAKE,1,Electronic,udio,test,3,0.8822235482816017,udio,0.589972275429367,1
+sample_02437,Pista Afuera - Epstein,FAKE,1,Electronic,udio,test,3,0.6743692525378687,udio,0.589972275429367,1
+sample_02438,Pista Afuera - Epstein,FAKE,1,Electronic,udio,test,3,0.6451182808892756,udio,0.589972275429367,1
+sample_02441,Realize Me - Jim Rooster,FAKE,1,Electronic,udio,test,3,0.5500289161170734,udio,0.589972275429367,0
+sample_02442,Realize Me - Jim Rooster,FAKE,1,Electronic,udio,test,3,0.5910532533816645,udio,0.589972275429367,1
+sample_02443,Resistentialism - Nihilore,FAKE,1,Electronic,udio,test,3,0.98505203766176,udio,0.589972275429367,1
+sample_02444,Resistentialism - Nihilore,FAKE,1,Electronic,udio,test,3,0.5672233775936634,udio,0.589972275429367,0
+sample_02465,Ugh! Humans Can Join - Mystery Mammal,FAKE,1,Electronic,udio,test,3,0.9107477451237104,udio,0.589972275429367,1
+sample_02466,Ugh! Humans Can Join - Mystery Mammal,FAKE,1,Electronic,udio,test,3,0.5837994679153448,udio,0.589972275429367,0
+sample_02483,Different Day - First,FAKE,1,Pop,udio,test,3,0.5983287280080162,udio,0.589972275429367,1
+sample_02484,Different Day - First,FAKE,1,Pop,udio,test,3,0.8442598405978571,udio,0.589972275429367,1
+sample_02493,"Hungry - Oh Yeah, the Future",FAKE,1,Pop,udio,test,3,0.5745783410512645,udio,0.589972275429367,0
+sample_02494,"Hungry - Oh Yeah, the Future",FAKE,1,Pop,udio,test,3,0.03033992197181687,udio,0.589972275429367,0
+sample_02515,Motocross Mania - Monroeville Music Center,FAKE,1,Pop,udio,test,3,0.9391174072105363,udio,0.589972275429367,1
+sample_02516,Motocross Mania - Monroeville Music Center,FAKE,1,Pop,udio,test,3,0.8633753131214231,udio,0.589972275429367,1
+sample_02517,Music For an Underground Circu - Ergo Phizmiz,FAKE,1,Pop,udio,test,3,0.6293706560259663,udio,0.589972275429367,1
+sample_02518,Music For an Underground Circu - Ergo Phizmiz,FAKE,1,Pop,udio,test,3,0.7219451102658093,udio,0.589972275429367,1
+sample_02537,She Works / Tepid Waters - Bird Names,FAKE,1,Pop,udio,test,3,0.3686851484645466,udio,0.589972275429367,0
+sample_02538,She Works / Tepid Waters - Bird Names,FAKE,1,Pop,udio,test,3,0.08600143475700138,udio,0.589972275429367,0
+sample_02541,Something Dirty - Ergo Phizmiz,FAKE,1,Pop,udio,test,3,0.5010673902984116,udio,0.589972275429367,0
+sample_02542,Something Dirty - Ergo Phizmiz,FAKE,1,Pop,udio,test,3,0.6117327387080834,udio,0.589972275429367,1
+sample_02561,Troubles I've seen - Malaventura,FAKE,1,Pop,udio,test,3,0.978790656823187,udio,0.589972275429367,1
+sample_02562,Troubles I've seen - Malaventura,FAKE,1,Pop,udio,test,3,0.5903568798667246,udio,0.589972275429367,1
+sample_02575,Attention - Pete Prodoehl,FAKE,1,Rock,udio,test,3,0.9552004821003287,udio,0.589972275429367,1
+sample_02576,Attention - Pete Prodoehl,FAKE,1,Rock,udio,test,3,0.458505271488733,udio,0.589972275429367,0
+sample_02591,"Head of Ancante, Talking Tree - Ak'chamel, The Giver of Illness",FAKE,1,Rock,udio,test,3,0.8110619547849791,udio,0.589972275429367,1
+sample_02592,"Head of Ancante, Talking Tree - Ak'chamel, The Giver of Illness",FAKE,1,Rock,udio,test,3,0.585179077627714,udio,0.589972275429367,0
+sample_02599,I - Inflammator,FAKE,1,Rock,udio,test,3,0.6985546089245332,udio,0.589972275429367,1
+sample_02600,I - Inflammator,FAKE,1,Rock,udio,test,3,0.9615538200851593,udio,0.589972275429367,1
+sample_02605,LIQUID SKULLS - voyageurs,FAKE,1,Rock,udio,test,3,0.7483674247308173,udio,0.589972275429367,1
+sample_02606,LIQUID SKULLS - voyageurs,FAKE,1,Rock,udio,test,3,0.6973116641066808,udio,0.589972275429367,1
+sample_02609,Love Dream - The Zombie Dandies,FAKE,1,Rock,udio,test,3,0.7161036892228841,udio,0.589972275429367,1
+sample_02610,Love Dream - The Zombie Dandies,FAKE,1,Rock,udio,test,3,0.705366839155002,udio,0.589972275429367,1
+sample_02635,Sfogare Il Dissenso - Deiezione HC,FAKE,1,Rock,udio,test,3,0.6340058903086532,udio,0.589972275429367,1
+sample_02636,Sfogare Il Dissenso - Deiezione HC,FAKE,1,Rock,udio,test,3,0.9740654785013164,udio,0.589972275429367,1
+sample_02643,Stuttgart - Portrayal,FAKE,1,Rock,udio,test,3,0.461067922954082,udio,0.589972275429367,0
+sample_02644,Stuttgart - Portrayal,FAKE,1,Rock,udio,test,3,0.9265127867693641,udio,0.589972275429367,1
+sample_02645,Terve Teille - Чокнутый Пропеллер,FAKE,1,Rock,udio,test,3,0.22698163919662329,udio,0.589972275429367,0
+sample_02646,Terve Teille - Чокнутый Пропеллер,FAKE,1,Rock,udio,test,3,0.7753963479186151,udio,0.589972275429367,1
+sample_02659,Where Is Everything - The Moi Non Plus,FAKE,1,Rock,udio,test,3,0.6780096075923531,udio,0.589972275429367,1
+sample_02660,Where Is Everything - The Moi Non Plus,FAKE,1,Rock,udio,test,3,0.9745357696427924,udio,0.589972275429367,1
+sample_02661,Who Loves You Dear - Mink Lungs,FAKE,1,Rock,udio,test,3,0.2759797147892363,udio,0.589972275429367,0
+sample_02662,Who Loves You Dear - Mink Lungs,FAKE,1,Rock,udio,test,3,0.26150604570831104,udio,0.589972275429367,0

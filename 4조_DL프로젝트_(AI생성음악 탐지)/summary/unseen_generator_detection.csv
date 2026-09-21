@@ -1,0 +1,7 @@
+holdout_generator,model,n_real,n_fake,roc_auc,eer,balanced_accuracy,macro_f1,real_fpr,fake_miss_rate
+MusicGen,RBF-SVM,45,45,0.6123,0.4000,0.5222,0.4669,0.1556,0.8000
+MusicGen,Log-Mel CNN,45,45,0.8681,0.2667,0.7333,0.7285,0.1333,0.4000
+MusicGen,MERT+LR,45,45,0.9407,0.0889,0.8556,0.8551,0.0889,0.2000
+Udio,RBF-SVM,45,48,0.8542,0.2368,0.7361,0.7266,0.1111,0.4167
+Udio,Log-Mel CNN,45,48,0.8227,0.2146,0.7653,0.7632,0.1778,0.2917
+Udio,MERT+LR,45,48,0.9181,0.1292,0.8097,0.8053,0.0889,0.2917

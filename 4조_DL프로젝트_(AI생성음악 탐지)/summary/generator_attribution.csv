@@ -1,0 +1,5 @@
+representation,condition,accuracy,balanced_accuracy,macro_f1,top3_accuracy,macro_ovr_auc
+Handcrafted+RBF-SVM,full,0.8846,0.8812,0.8840,0.9798,0.9765
+MERT95M+LR,full,0.9393,0.9379,0.9384,0.9879,0.9959
+Handcrafted+RBF-SVM,strict_balanced,0.7544,0.7544,0.7447,0.9386,0.9534
+MERT95M+LR,strict_balanced,0.8991,0.8991,0.8980,0.9912,0.9920

@@ -1,0 +1,4 @@
+model,level,roc_auc,eer,balanced_accuracy,macro_f1,real_fpr,fake_miss_rate,notes
+RBF-SVM,track,0.9644,0.1395,0.8696,0.7502,0.1556,0.1053,266-D handcrafted features
+Log-Mel CNN,track,0.9772,0.1042,0.9111,0.8535,0.1333,0.0445,128-bin Log-Mel
+MERT95M+LR,track,0.9872,0.0455,0.9363,0.8107,0.0444,0.0830,layer 9 frozen MERT baseline

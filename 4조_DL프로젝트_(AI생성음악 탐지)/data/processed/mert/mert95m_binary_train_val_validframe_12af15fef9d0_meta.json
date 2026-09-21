@@ -1,0 +1,30 @@
+{
+  "model": "m-a-p/MERT-v1-95M",
+  "revision": "12af15fef9d0ac838c3f475bfbbf26d2060dd4f5",
+  "processor_sampling_rate": 24000,
+  "segment_sec": 10.0,
+  "input": "24kHz mono, original 10s boundary, no zero padding",
+  "pooling": "single-segment valid hidden frames mean",
+  "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hidden_size": 768,
+  "manifest_sha256": "9023dcb21bef5d7163c63ea93258195e53c9fde3ecb7fee5920bf6ff94bbc2b3",
+  "splits": [
+    "train",
+    "val"
+  ],
+  "segment_ids_sha256": "03e0c45bc24f65140ace04358528b9792e29fe3fcc2566fa59eb8782a94379b9"
+}

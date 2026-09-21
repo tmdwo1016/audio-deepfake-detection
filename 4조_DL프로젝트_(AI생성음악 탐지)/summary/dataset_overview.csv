@@ -1,0 +1,6 @@
+unit,total,train,validation,test,real,fake,notes
+original_audio_groups,296,207,44,45,,,group split unit
+tracks,3458,2392,527,539,296,3162,REAL and FAKE audio files
+segments_10s,10077,6967,1538,1572,888,9189,up to three segments per track
+generators,12,,,,,,FAKE only
+genres,3,,,,,,Electronic Pop Rock
