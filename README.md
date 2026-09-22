@@ -5,7 +5,7 @@ AI 생성 음악을 실제 음악과 구분하고, 학습에서 보지 못한 �
 이 저장소는 Echoes TTA의 AI 생성 음악과 대응되는 FMA 실제 음악을 정제한 뒤, 동일 원곡이 Train/Validation/Test에 섞이지 않도록 `original_audio` 단위로 분할합니다. Handcrafted feature, Log-Mel CNN, frozen MERT 표현을 동일한 평가 원칙 아래 비교합니다.
 
 > 분석 완료일: 2026-09-22
-> 상세 결과: [최종 분석 보고서](docs/FINAL_REPORT.md) · [MERT 강건성 추가 보고서](docs/22_mert_unseen_generator_report.md) · [변경사항](CHANGELOG.md)
+> 상세 결과: [최종 분석 보고서](docs/FINAL_REPORT.md) · [발표 이후 피드백](docs/23_post_presentation_feedback.md) · [MERT 강건성 추가 보고서](docs/22_mert_unseen_generator_report.md) · [변경사항](CHANGELOG.md)
 
 ## 핵심 결과
 
@@ -102,6 +102,7 @@ flowchart LR
 | MERT | `17_mert_frozen_baseline_v2.ipynb`, `22_mert_unseen_generator.ipynb` | Frozen MERT baseline, unseen-generator 및 MP3 평가 |
 | Attribution | `18_generator_attribution_handcrafted_v3.ipynb`, `18B_...`, `19_...` | Full 및 strict-balanced 12-way 생성기 분류 |
 | 해석 | `20_generator_fingerprint_pca_umap.ipynb`, `20_..._v2.ipynb`, `21_...` | PCA/UMAP, silhouette, 장르 및 음향 feature 분석 |
+| 후속 검증 | `23_post_presentation_feedback_single_track_inference.ipynb` | 단일 MP3 2곡 입력, 모델별 AI 생성 판정 및 곡 단위 aggregation |
 
 위 표에 적힌 파일이 각 단계의 실행본입니다. 20번 PCA/UMAP 분석은 주 실행본과 v2 보존 사본을 모두 유지했습니다.
 

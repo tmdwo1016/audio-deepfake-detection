@@ -1,0 +1,3 @@
+﻿file_name,segment_role,start_sec,end_sec,duration_sec,source_sample_rate_hz,channels,format,subtype,bytes,average_bitrate_bps,sha256
+fake_00001_suno_1.mp3,start,0.0,10.0,225.96,16000,1,MP3,MPEG_LAYER_III,1143324,40478.810408921934,117c81e8529af452848bc77a11f97e3db04a9c43f722ff2208740be9e6b5b734
+fake_00001_suno_0.mp3,start,0.0,10.0,224.0,16000,1,MP3,MPEG_LAYER_III,1086372,38799.0,2c6d06d5d79e0103f383d3f30a0b0b1b14d015fe06d8c69da4a85480ebee69ab

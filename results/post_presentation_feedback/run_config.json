@@ -1,0 +1,29 @@
+{
+  "sample_rate": 24000,
+  "segment_seconds": 10.0,
+  "aggregation": "mean of start/middle/end 10-second segments",
+  "thresholds": {
+    "Logistic Regression": {
+      "segment": 0.5676900245181252,
+      "track": 0.5634561570614823
+    },
+    "RBF-SVM": {
+      "segment": 0.5847561880627183,
+      "track": 0.6615054850320587
+    },
+    "Log-Mel CNN": {
+      "segment": 0.142173171043396,
+      "track": 0.2410693895071745
+    },
+    "Frozen MERT + LR": {
+      "segment": 0.5685665621681771,
+      "track": 0.5887511404871456
+    }
+  },
+  "models": [
+    "Logistic Regression",
+    "RBF-SVM",
+    "Log-Mel CNN",
+    "Frozen MERT + LR"
+  ]
+}
