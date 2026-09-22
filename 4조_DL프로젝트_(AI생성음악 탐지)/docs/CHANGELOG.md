@@ -1,5 +1,11 @@
 # 변경사항
 
+## 2026-09-22 — 발표 이후 피드백: 단일 곡 입력 판정
+
+- `23_post_presentation_feedback_single_track_inference.ipynb`와 단일 파일 추론 코드 추가
+- 제공된 두 MP3를 Logistic Regression·RBF-SVM·Log-Mel CNN·Frozen MERT+LR로 확인
+- 네 모델 모두 두 곡을 AI 생성으로 판정한 입력 QC·모델별 점수·주의사항을 `docs/23_post_presentation_feedback.md`에 기록
+
 ## 2026-09-22 — MERT 강건성 확장 및 제출본 정리
 
 ### 실험과 결과

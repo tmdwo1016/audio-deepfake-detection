@@ -15,14 +15,14 @@
 
 ```text
 4조_DL프로젝트_(AI생성음악 탐지)/
-├── notebooks/                    # 실행 결과를 포함한 분석 노트북 24개
+├── notebooks/                    # 실행 결과를 포함한 분석 노트북 25개
 ├── src/                          # FMA 다운로드·추출 보조 코드
 ├── data/
 │   ├── metadata/                 # 최종 manifest, split, 검증 기록
 │   └── processed/                # Handcrafted CSV와 Log-Mel/MERT index
 ├── results/                      # 핵심 결과 CSV와 대표 그림
 ├── summary/                      # 제출용 통합 표
-├── docs/                         # 기존 보고서와 최신 MERT 추가 보고서
+├── docs/                         # 보고서와 발표 이후 단일 곡 판정 피드백
 └── 4조 발표자료.pdf               # 최종 발표자료
 ```
 
@@ -32,7 +32,8 @@
 - 모델이 사용한 10초 segment 10,077개의 manifest
 - Handcrafted 266차원 특징 CSV와 MP3 128/64 kbps Test 특징 CSV
 - Log-Mel·MERT cache의 행 대응 index와 메타데이터
-- `notebooks/`의 분석 노트북 24개와 `src/` 스크립트
+- `notebooks/`의 분석 노트북 25개와 `src/` 스크립트
+- 발표 이후 피드백용 단일 곡 판정 코드·결과표: `notebooks/23_post_presentation_feedback_single_track_inference.ipynb`, `results/post_presentation_feedback/`, `docs/23_post_presentation_feedback.md`
 - 핵심 결과표 21개, 대표 그림, 통합 결과 CSV
 - 최종 발표자료 PDF
 
@@ -45,6 +46,6 @@
 - 노트북 복사본의 개인 로컬 경로는 제거했다. `notebooks/`에서 실행해도 상위의 `data/`와 `results/`를 자동으로 찾도록 구성했다.
 - `09`번 Handcrafted baseline 이후 일부 분석은 포함된 CSV만으로 확인할 수 있다.
 - `01`~`08`의 오디오 전처리와 CNN/MERT cache를 처음부터 재생성하려면 별도로 원본 Echoes·FMA 오디오를 준비해야 한다.
-- `docs/FINAL_REPORT_pre_MERT_extensions.md`는 22번 후속 MERT 실험 이전 보고서다. 최신 결과는 `SUMMARY.md`, `docs/FINAL_REPORT.md`, `docs/22_mert_unseen_generator_report.md`를 기준으로 한다.
+- `docs/FINAL_REPORT_pre_MERT_extensions.md`는 22번 후속 MERT 실험 이전 보고서다. 최신 분석 결과는 `SUMMARY.md`, `docs/FINAL_REPORT.md`, `docs/22_mert_unseen_generator_report.md`를 기준으로 하며, 단일 곡 입력 시연은 `docs/23_post_presentation_feedback.md`를 기준으로 한다.
 
 패키지 생성일: 2026-09-22
