@@ -44,7 +44,7 @@
 ## 재실행 시 주의사항
 
 - 노트북 복사본의 개인 로컬 경로는 제거했다. `notebooks/`에서 실행해도 상위의 `data/`와 `results/`를 자동으로 찾도록 구성했다.
-- 원본 오디오는 재배포하지 않는다. 23번 시연을 재실행하려면 `aurora_317.wav`와 `maple_842.mp3`를 `~/Downloads/`에 별도로 준비해야 하며, 기존 실행 결과는 `results/post_presentation_feedback/`에서 확인할 수 있다.
+- 원본 오디오는 재배포하지 않는다. 23번 시연을 재실행하려면 `01.wav`와 `02.mp3`를 `~/Downloads/`에 별도로 준비해야 하며, 기존 실행 결과는 `results/post_presentation_feedback/`에서 확인할 수 있다.
 - `09`번 Handcrafted baseline 이후 일부 분석은 포함된 CSV만으로 확인할 수 있다.
 - `01`~`08`의 오디오 전처리와 CNN/MERT cache를 처음부터 재생성하려면 별도로 원본 Echoes·FMA 오디오를 준비해야 한다.
 - `docs/FINAL_REPORT_pre_MERT_extensions.md`는 22번 후속 MERT 실험 이전 보고서다. 최신 분석 결과는 `SUMMARY.md`, `docs/FINAL_REPORT.md`, `docs/22_mert_unseen_generator_report.md`를 기준으로 하며, 단일 곡 입력 시연은 `docs/23_post_presentation_feedback.md`를 기준으로 한다.

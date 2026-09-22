@@ -44,4 +44,4 @@
 
 `src/02_download_fma_real.py`와 `src/03_extract_fma_real_remote.py`는 선택한 FMA REAL 파일을 내려받거나 원격 ZIP에서 추출하는 보조 코드다. `src/single_track_inference.py`는 23번의 네 모델 단일 곡 추론을 재사용 가능한 함수로 제공한다.
 
-패키지의 노트북은 개인 로컬 절대경로를 제거한 복사본이다. 23번은 발표 이후 피드백용 단일 곡 추론 페이지이며, 원본 오디오는 재배포하지 않으므로 실행하려면 `aurora_317.wav`와 `maple_842.mp3`를 `~/Downloads/`에 별도로 준비한다. 판정 결과표는 `results/post_presentation_feedback/`에 포함했다.
+패키지의 노트북은 개인 로컬 절대경로를 제거한 복사본이다. 23번은 발표 이후 피드백용 단일 곡 추론 페이지이며, 원본 오디오는 재배포하지 않으므로 실행하려면 `01.wav`와 `02.mp3`를 `~/Downloads/`에 별도로 준비한다. 판정 결과표는 `results/post_presentation_feedback/`에 포함했다.
