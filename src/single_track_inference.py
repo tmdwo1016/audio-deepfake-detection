@@ -219,7 +219,11 @@ def run_inference(input_paths: Iterable[str | Path], project_root: str | Path) -
     consensus = track_frame.assign(is_ai=track_frame["prediction"].eq("AI 생성")).groupby("file_name", sort=False).agg(
         ai_votes=("is_ai", "sum"), model_count=("is_ai", "size"),
     ).reset_index()
-    consensus["consensus_prediction"] = np.where(consensus["ai_votes"] == consensus["model_count"], "AI 생성", "모델 불일치")
+    consensus["consensus_prediction"] = np.select(
+        [consensus["ai_votes"] == consensus["model_count"], consensus["ai_votes"] == 0],
+        ["AI 생성", "인간 제작"],
+        default="모델 불일치",
+    )
     return {"input_metadata": metadata.drop_duplicates("file_name"), "segment_predictions": segment_frame,
             "track_predictions": track_frame, "consensus": consensus}
 
@@ -230,5 +234,5 @@ def save_results(results: dict[str, pd.DataFrame], output_dir: str | Path) -> No
     for name, frame in results.items():
         frame.to_csv(output / f"{name}.csv", index=False, encoding="utf-8-sig")
     (output / "run_config.json").write_text(json.dumps({"sample_rate": SR, "segment_seconds": SEGMENT_SECONDS,
-        "aggregation": "mean of start/middle/end 10-second segments", "thresholds": THRESHOLDS,
+        "aggregation": "mean of duration-dependent 10-second segments", "thresholds": THRESHOLDS,
         "models": list(THRESHOLDS)}, ensure_ascii=False, indent=2), encoding="utf-8")

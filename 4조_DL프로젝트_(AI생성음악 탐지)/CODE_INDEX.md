@@ -29,7 +29,7 @@
 | 16 | `16_final_integration_analysis.ipynb` | SVM·CNN 1차 통합 분석 |
 | 17 | `17_mert_frozen_baseline_v2.ipynb` | Frozen MERT in-domain 기준 모델 |
 | 22 | `22_mert_unseen_generator.ipynb` | 최신 MERT 미노출 생성기·MP3 평가 |
-| 23 | `23_post_presentation_feedback_single_track_inference.ipynb` | 단일 MP3 입력의 모델별 AI 생성 판정 및 곡 단위 aggregation |
+| 23 | `23_post_presentation_feedback_single_track_inference.ipynb` | AI 생성곡과 인간 원곡 입력의 모델별 판정 및 곡 단위 aggregation |
 
 ## 생성기 분류와 해석
 
@@ -42,6 +42,6 @@
 | 20-v2 | `20_generator_fingerprint_pca_umap_v2.ipynb` | 20번 시각화 실행본 보존 사본 |
 | 21 | `21_generator_genre_feature_analysis.ipynb` | 장르별 성능과 음향 특징 분석 |
 
-`src/02_download_fma_real.py`와 `src/03_extract_fma_real_remote.py`는 선택한 FMA REAL 파일을 내려받거나 원격 ZIP에서 추출하는 보조 코드다.
+`src/02_download_fma_real.py`와 `src/03_extract_fma_real_remote.py`는 선택한 FMA REAL 파일을 내려받거나 원격 ZIP에서 추출하는 보조 코드다. `src/single_track_inference.py`는 23번의 네 모델 단일 곡 추론을 재사용 가능한 함수로 제공한다.
 
-패키지의 노트북은 개인 로컬 절대경로를 제거한 복사본이다. 23번은 발표 이후 피드백용 단일 곡 추론 페이지이며, 입력 파일은 실행 환경의 `~/Downloads/`에서 읽는다. 원래 프로젝트의 코드와 실행 결과는 변경하지 않았다.
+패키지의 노트북은 개인 로컬 절대경로를 제거한 복사본이다. 23번은 발표 이후 피드백용 단일 곡 추론 페이지이며, 원본 오디오는 재배포하지 않으므로 실행하려면 `aurora_317.wav`와 `maple_842.mp3`를 `~/Downloads/`에 별도로 준비한다. 판정 결과표는 `results/post_presentation_feedback/`에 포함했다.

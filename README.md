@@ -102,7 +102,7 @@ flowchart LR
 | MERT | `17_mert_frozen_baseline_v2.ipynb`, `22_mert_unseen_generator.ipynb` | Frozen MERT baseline, unseen-generator 및 MP3 평가 |
 | Attribution | `18_generator_attribution_handcrafted_v3.ipynb`, `18B_...`, `19_...` | Full 및 strict-balanced 12-way 생성기 분류 |
 | 해석 | `20_generator_fingerprint_pca_umap.ipynb`, `20_..._v2.ipynb`, `21_...` | PCA/UMAP, silhouette, 장르 및 음향 feature 분석 |
-| 후속 검증 | `23_post_presentation_feedback_single_track_inference.ipynb` | 단일 MP3 2곡 입력, 모델별 AI 생성 판정 및 곡 단위 aggregation |
+| 후속 검증 | `23_post_presentation_feedback_single_track_inference.ipynb` | AI 생성곡과 별개 AI 샘플의 인간 원곡 입력, 모델별 판정 및 곡 단위 aggregation |
 
 위 표에 적힌 파일이 각 단계의 실행본입니다. 20번 PCA/UMAP 분석은 주 실행본과 v2 보존 사본을 모두 유지했습니다.
 

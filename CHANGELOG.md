@@ -3,8 +3,9 @@
 ## 2026-09-22 — 발표 이후 피드백: 단일 곡 입력 판정
 
 - `23_post_presentation_feedback_single_track_inference.ipynb`와 `src/single_track_inference.py` 추가
-- 제공된 MP3 두 곡을 LR·RBF-SVM·Log-Mel CNN·Frozen MERT+LR로 추론
-- 네 모델 모두 두 곡을 AI 생성으로 판정한 곡 단위 결과와 입력 QC를 `docs/23_post_presentation_feedback.md`에 기록
+- 제공된 AI 생성곡 한 곡과 별개 AI 샘플의 인간 원곡 한 곡을 LR·RBF-SVM·Log-Mel CNN·Frozen MERT+LR로 추론
+- 네 모델 모두 AI 생성곡은 `AI 생성`, 인간 원곡은 `인간 제작`으로 판정한 곡 단위 결과와 입력 QC를 `docs/23_post_presentation_feedback.md`에 기록
+- 만장일치 인간 판정을 `모델 불일치`로 표시하던 합의 결과 조건을 수정
 
 ## 2026-09-22 — MERT 강건성 확장 및 제출본 정리
 
